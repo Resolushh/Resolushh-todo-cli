@@ -7,7 +7,7 @@ from todo.commands import add_task, list_tasks, mark_done, remove_task
 def main():
     if len(sys.argv) < 2:
         print(
-            "Usage:\n"
+            "Usage: todo <add|list|done|remove> [args]\n"
             "  python main.py add 'title'\n"
             "  python main.py list\n"
             "  python main.py done ID\n"
